@@ -16,6 +16,7 @@ body {
 .text-right {
   text-align: right;
 }
+
 /* header starts */
 header {
   padding: 20px 35px;
@@ -42,11 +43,11 @@ header nav {
 }
 
 header nav ul {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- align-items: center;
- list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
@@ -62,17 +63,18 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0px;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
@@ -86,10 +88,11 @@ footer a {
 /* hero starts */
 .hero {
   background-image: url("../images/flipped-hero-image.jpeg");
-  height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* hero ends */
@@ -99,15 +102,28 @@ section {
 }
 
 /* hero form starts */
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+}
+
 .hero-form {
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
+  width: 40%;
+  margin: 3.5%;
   color: #024e76;
   border: #024e76 solid 3px;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
 }
 
 .hero-form h3 {
@@ -207,6 +223,7 @@ section {
 .steps span {
   font-size: 38px;
 }
+
 /* What You Do ends */
 
 /* Your trainers starts */
@@ -281,7 +298,8 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -291,4 +309,5 @@ section {
 .contact-info a {
   color: #fce138;
 }
+
 /* Contact ends */
