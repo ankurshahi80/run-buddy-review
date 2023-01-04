@@ -80,7 +80,7 @@ footer a {
 
 /* hero starts */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/flipped-hero-image.jpeg");
   height: 600px;
   background-size: cover;
   background-position: center;
