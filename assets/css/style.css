@@ -361,9 +361,6 @@ section {
   font-size: 16px;
 }
 
-/* Contact ends */
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -385,31 +382,17 @@ section {
     font-size: 20px;
   }
 
-  footer h2,
-  footer div {
+  footer h2, footer div {
     text-align: center;
     width: 100%;
   }
-
-  .hero-cta,
-  .hero-form {
+  
+  .hero-cta, .hero-form {
     width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
-  }
-
-  .section-title {
-    width: 80%;
-  }
-
-  .trainer {
-    flex: 0 70%;
-  }
-
-  .contact-info iframe {
-    flex: 1 100%;
   }
 }
 
@@ -444,7 +427,7 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero button {
+  .hero-form button {
     width: 100%;
   }
 
@@ -464,11 +447,12 @@ section {
     text-align: center;
   }
 
-  .contact-info>* {
+  .contact-info > * {
     flex: 0 100%;
   }
 
   .contact-form {
     order: 3;
   }
+
 }
