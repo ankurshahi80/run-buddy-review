@@ -24,10 +24,16 @@ body {
 /* header starts */
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  /* background-color: #39a6b2; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/flipped-hero-image.jpeg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
 }
 
 header h1 {
@@ -95,7 +101,8 @@ footer a {
 .hero {
   background-image: url("../images/flipped-hero-image.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: 80%;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -374,6 +381,7 @@ section {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
