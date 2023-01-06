@@ -492,7 +492,6 @@ section {
     width: 100%;
     justify-content: center;
   }
-
   header nav ul li a {
     font-size: 20px;
   }
@@ -534,7 +533,6 @@ section {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
   .step-text {
     flex: 100%;
   }
@@ -569,5 +567,4 @@ section {
   .contact-form {
     order: 3;
   }
-
 }
